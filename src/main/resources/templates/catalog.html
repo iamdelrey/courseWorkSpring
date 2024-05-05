@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Каталог | Artflow</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/images/favicon-32x32.png"
+    />
+    <link rel="manifest" href="assets/images/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="assets/images/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta
+      name="description"
+      content="Международный Дом изобразительного искусства в Москве"
+    />
+    <meta
+      name="keywords"
+      content="exhibitions, contemporary art, artists, Moscow, things to do in Moscow"
+    />
+    <meta name="author" content="Artflow" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/e4ffee1eee.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Andika:wght@400;700&family=Marmelad&family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/catalog.css" type="text/css" />
+  </head>
+
+  <body id="body-catalog">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container" id="page-top">
+          <a class="navbar-brand" href="index.html">
+            <span class="logo">Artflow</span>
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Главная</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="exhibitions.html">Выставки</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="artists.html">Художники</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">О нас</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Контакты</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="catalog.html"
+                  >Каталог<span class="sr-only">(текущая)</span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="header-section">
+      <div class="subpage-header-container">
+        <h1 class="title sub-page-header">Каталог</h1>
+        <div class="icon-cart">
+          <svg
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 18 20"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1"
+            />
+          </svg>
+          <span>0</span>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="catalog-container">
+        <div class="listProduct"></div>
+      </div>
+      <div class="cartTab">
+        <h1>Корзина</h1>
+        <div class="listCart"></div>
+        <div class="btn">
+          <button class="close">Закрыть</button>
+          <button class="checkOut">Оплатить</button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="container-fluid">
+      <div class="container">
+        <div id="footer-details" class="row align-items-center">
+          <div class="col-sm-6 text-sm-left contact-details">
+            <h5 class="general-sub">Artflow</h5>
+            <p class="small">
+              Artflow, Моховая улица, 13, Москва, Россия<br />
+              Тел: <a href="tel:79177637777">+7 917 763-77-77</a><br />
+              Почта:
+              <a href="mailto:artflow@mail.ru">artflow@mail.ru</a>
+            </p>
+          </div>
+          <div class="col-sm-6 text-sm-right">
+            <ul class="list-inline social-links">
+              <li class="list-inline-item">
+                <a target="_blank" href="https://www.youtube.com">
+                  <i class="fa-brands fa-youtube" aria-hidden="true"></i>
+                  <span class="sr-only">Youtube</span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a target="_blank" href="https://desktop.telegram.org">
+                  <i class="fa fa-telegram" aria-hidden="true"></i>
+                  <span class="sr-only">Telegram</span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a target="_blank" href="https://www.instagram.com">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                  <span class="sr-only">Instagram</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <div class="col-12 d-flex justify-content-center">
+          <p class="small copyright">
+            © 2023 Artflow, автор Степанов Антон ИКБО-30-22. Все права защищены.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+      integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+      crossorigin="anonymous"
+    ></script>
+    <script src="catalog.js"></script>
+  </body>
+</html>
