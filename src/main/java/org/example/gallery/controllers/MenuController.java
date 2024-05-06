@@ -1,4 +1,4 @@
-package org.example.cafe.controllers;
+package org.example.gallery.controllers;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
@@ -6,8 +6,8 @@ import jakarta.persistence.criteria.CriteriaBuilder;
 import jakarta.persistence.criteria.CriteriaQuery;
 import jakarta.persistence.criteria.Root;
 import lombok.AllArgsConstructor;
-import org.example.cafe.entity.Product;
-import org.example.cafe.service.ProductService;
+import org.example.gallery.entity.Product;
+import org.example.gallery.service.ProductService;
 import org.hibernate.query.Query;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

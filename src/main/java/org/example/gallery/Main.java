@@ -1,4 +1,4 @@
-package org.example.cafe;
+package org.example.gallery;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

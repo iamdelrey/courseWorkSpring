@@ -1,14 +1,13 @@
-package org.example.cafe.controllers;
+package org.example.gallery.controllers;
 
 import lombok.AllArgsConstructor;
-import org.example.cafe.dto.ProductDTO;
-import org.example.cafe.entity.Product;
-import org.example.cafe.service.ProductService;
+import org.example.gallery.dto.ProductDTO;
+import org.example.gallery.entity.Product;
+import org.example.gallery.service.ProductService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.security.Principal;
 import java.util.List;
 
 @RestController
@@ -17,7 +16,6 @@ public class PostmanController {
 
     private final ProductService productService;
 
-    //Обработчики запросов для работы с API приложеня при помощи Postman
     @RequestMapping(value = "/postman", method = RequestMethod.GET)
     public ResponseEntity<List<Product>> readAll() {
         return new ResponseEntity<>(productService.readAll(), HttpStatus.OK);

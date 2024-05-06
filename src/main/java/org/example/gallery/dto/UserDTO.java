@@ -1,4 +1,4 @@
-package org.example.cafe.dto;
+package org.example.gallery.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

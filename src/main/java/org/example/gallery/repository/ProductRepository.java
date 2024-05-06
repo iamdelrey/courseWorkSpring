@@ -1,6 +1,6 @@
-package org.example.cafe.repository;
+package org.example.gallery.repository;
 
-import org.example.cafe.entity.Product;
+import org.example.gallery.entity.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

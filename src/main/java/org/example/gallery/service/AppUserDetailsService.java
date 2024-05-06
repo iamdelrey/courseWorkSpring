@@ -1,8 +1,8 @@
-package org.example.cafe.service;
+package org.example.gallery.service;
 
-import org.example.cafe.config.AppUserDetails;
-import org.example.cafe.entity.AppUser;
-import org.example.cafe.repository.UserRepository;
+import org.example.gallery.config.AppUserDetails;
+import org.example.gallery.entity.AppUser;
+import org.example.gallery.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

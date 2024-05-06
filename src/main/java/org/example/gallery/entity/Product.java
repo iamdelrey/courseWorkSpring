@@ -1,4 +1,4 @@
-package org.example.cafe.entity;
+package org.example.gallery.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

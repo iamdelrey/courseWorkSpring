@@ -1,9 +1,9 @@
-package org.example.cafe.controllers;
+package org.example.gallery.controllers;
 
 import lombok.AllArgsConstructor;
-import org.example.cafe.dto.UserDTO;
-import org.example.cafe.entity.AppUser;
-import org.example.cafe.service.UserService;
+import org.example.gallery.dto.UserDTO;
+import org.example.gallery.entity.AppUser;
+import org.example.gallery.service.UserService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

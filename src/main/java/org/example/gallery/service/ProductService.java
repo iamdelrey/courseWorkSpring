@@ -1,11 +1,11 @@
-package org.example.cafe.service;
+package org.example.gallery.service;
 
 import lombok.AllArgsConstructor;
-import org.example.cafe.dto.ProductDTO;
-import org.example.cafe.entity.AppUser;
-import org.example.cafe.entity.Product;
-import org.example.cafe.repository.ProductRepository;
-import org.example.cafe.repository.UserRepository;
+import org.example.gallery.dto.ProductDTO;
+import org.example.gallery.entity.AppUser;
+import org.example.gallery.entity.Product;
+import org.example.gallery.repository.ProductRepository;
+import org.example.gallery.repository.UserRepository;
 import org.springframework.stereotype.Service;
 
 import java.security.Principal;

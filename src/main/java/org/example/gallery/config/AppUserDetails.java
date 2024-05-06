@@ -1,7 +1,7 @@
-package org.example.cafe.config;
+package org.example.gallery.config;
 
 import lombok.AllArgsConstructor;
-import org.example.cafe.entity.AppUser;
+import org.example.gallery.entity.AppUser;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

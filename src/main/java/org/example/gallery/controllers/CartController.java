@@ -1,9 +1,9 @@
-package org.example.cafe.controllers;
+package org.example.gallery.controllers;
 
 import lombok.AllArgsConstructor;
-import org.example.cafe.entity.AppUser;
-import org.example.cafe.entity.Product;
-import org.example.cafe.service.ProductService;
+import org.example.gallery.entity.AppUser;
+import org.example.gallery.entity.Product;
+import org.example.gallery.service.ProductService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;

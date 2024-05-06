@@ -1,9 +1,9 @@
-package org.example.cafe.service;
+package org.example.gallery.service;
 
 import lombok.AllArgsConstructor;
-import org.example.cafe.dto.UserDTO;
-import org.example.cafe.entity.AppUser;
-import org.example.cafe.repository.UserRepository;
+import org.example.gallery.dto.UserDTO;
+import org.example.gallery.entity.AppUser;
+import org.example.gallery.repository.UserRepository;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 

@@ -1,21 +1,119 @@
-<!DOCTYPE HTML>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<!DOCTYPE html>
+<html lang="ru">
+
 <head>
-    <title>Getting Started: Serving Web Content</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <link rel="stylesheet"  href="/css/header.css">
-    <link rel="stylesheet"  href="/css/reg.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Регистрация | Artflow</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+          integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/css/style.css" type="text/css" />
+    <style>
+        body {
+            background-color: #a3755f;
+            color: #000000;
+        }
+
+        .auth-form-container {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .auth-form-header {
+            background-color: #844639;
+            color: #ffffff;
+            padding: 10px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            text-align: center;
+            margin: -20px -20px 20px -20px;
+        }
+
+        .btn-auth-submit {
+            background-color: #844639;
+            border: none;
+            color: #ffffff;
+            font-size: 18px;
+        }
+
+        .btn-auth-submit:hover {
+            background-color: #635422;
+        }
+
+        .form-control {
+            border-radius: 20px;
+        }
+    </style>
+</head>
+
 <body>
-<header th:insert="~{parts/header :: header}"></header>
-<div class="testbox">
-    <h1>Регистрация</h1>
-    <form id="registration" class="reg_form">
-        <input type="text" name="email" id="email" placeholder="Email" required/>
-        <input type="text" name="name" id="name" placeholder="Name" required/>
-        <input type="password" name="password" id="password" placeholder="Password" required/>
-        <button id="reg_button" type="submit" class="btn-0">Зарегистрироваться</button>
-    </form>
-    <script src="/js/reg_form.js"></script>
-</div>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container" id="page-top">
+            <a class="navbar-brand" href="index.html">
+                <span class="logo">Artflow</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about">О нас</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact">Контакты</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="catalog">Каталог</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login">Войти</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="registration_page">Регистрация <span class="sr-only">(текущая)</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<main class="container mt-5">
+    <div class="row">
+        <div class="col-md-6 mx-auto">
+            <div class="auth-form-container">
+                <h3 class="auth-form-header">Регистрация</h3>
+                <form>
+                    <div class="mb-3">
+                        <label for="userName" class="form-label">Имя пользователя</label>
+                        <input type="text" class="form-control" id="userName">
+                    </div>
+                    <div class="mb-3">
+                        <label for="userEmail" class="form-label">Email адрес</label>
+                        <input type="email" class="form-control" id="userEmail">
+                    </div>
+                    <div class="mb-3">
+                        <label for="userPassword" class="form-label">Пароль</label>
+                        <input type="password" class="form-control" id="userPassword">
+                    </div>
+                    <div class="mb-3">
+                        <label for="confirmPassword" class="form-label">Подтвердите пароль</label>
+                        <input type="password" class="form-control" id="confirmPassword">
+                    </div>
+                    <button type="submit" class="btn btn-auth-submit w-100">Зарегистрироваться</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</main>
 </body>
+
 </html>

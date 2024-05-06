@@ -1,9 +1,9 @@
-package org.example.cafe.controllers;
+package org.example.gallery.controllers;
 
 import lombok.AllArgsConstructor;
-import org.example.cafe.dto.ProductDTO;
-import org.example.cafe.entity.Product;
-import org.example.cafe.service.ProductService;
+import org.example.gallery.dto.ProductDTO;
+import org.example.gallery.entity.Product;
+import org.example.gallery.service.ProductService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
