@@ -11,21 +11,6 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
-import org.springframework.core.io.Resource;
-import org.springframework.core.io.UrlResource;
-import org.springframework.http.HttpHeaders;
-import org.springframework.http.MediaType;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-
-import java.io.File;
-import java.net.MalformedURLException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import org.springframework.core.io.UrlResource;
-
-
 import java.util.List;
 
 @Controller
@@ -60,36 +45,10 @@ public class AdminController {
                                          @RequestParam String text, @RequestParam("image") MultipartFile image, Model model) {
         try {
             ProductDTO dto = new ProductDTO(name, price, text, image);
-            Product product = productService.create(dto);
-            boolean isImageSaved = productService.saveImage(image);
-            if (isImageSaved) {
-                return ResponseEntity.ok("Товар и изображение успешно добавлены");
-            } else {
-                return ResponseEntity.ok("Товар добавлен, но изображение сохранить не удалось");
-            }
+            productService.create(dto);
+            return ResponseEntity.ok("Товар успешно добавлен");
         } catch (Exception e) {
-            return ResponseEntity.badRequest().body("Произошла ошибка при добавлении товара: " + e.getMessage());
-        }
-    }
-
-    @GetMapping("/download/{filename:.+}")
-    public ResponseEntity<?> downloadFile(@PathVariable String filename) {
-        String uploadDir = productService.getUploadDir(); // Получаем путь к директории для загрузки
-        Path filePath = Paths.get(uploadDir, filename);
-        if (Files.exists(filePath)) {
-            try {
-                Resource resource = new UrlResource(filePath.toUri());
-                String contentType = "application/octet-stream";
-                String headerValue = "attachment; filename=\"" + resource.getFilename() + "\"";
-                return ResponseEntity.ok()
-                        .contentType(MediaType.parseMediaType(contentType))
-                        .header(HttpHeaders.CONTENT_DISPOSITION, headerValue)
-                        .body(resource);
-            } catch (MalformedURLException e) {
-                return ResponseEntity.badRequest().body("Неверный формат URL: " + e.getMessage());
-            }
-        } else {
-            return ResponseEntity.notFound().build();
+            return ResponseEntity.badRequest().body("Произошла ошибка при добавлении товара");
         }
     }
 

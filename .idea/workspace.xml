@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="589b9179-27ae-4118-8934-291faf22bb10" name="Changes" comment="init">
+    <list default="true" id="589b9179-27ae-4118-8934-291faf22bb10" name="Changes" comment="added image upload and download">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/gallery/controllers/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gallery/controllers/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/gallery/dto/ProductDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gallery/dto/ProductDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/gallery/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gallery/service/ProductService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/post_form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/post_form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,7 +205,7 @@
       <workItem from="1715018953855" duration="3998000" />
       <workItem from="1715074837039" duration="3385000" />
       <workItem from="1715166148800" duration="12896000" />
-      <workItem from="1715204123169" duration="4481000" />
+      <workItem from="1715204123169" duration="4817000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -345,7 +343,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715191398960</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="added image upload and download">
+      <option name="closed" value="true" />
+      <created>1715211563720</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1715211563720</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,7 +386,8 @@
     <MESSAGE value="Add footer to some pages" />
     <MESSAGE value="Add order-feature" />
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="added image upload and download" />
+    <option name="LAST_COMMIT_MESSAGE" value="added image upload and download" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MorningBuzzCafe$Tests_in__MorningBuzzCafe_.ic" NAME="Tests in 'MorningBuzzCafe' Coverage Results" MODIFIED="1714752795266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
