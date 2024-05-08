@@ -22,6 +22,7 @@ public class Product {
     private Integer price;
     private String text;
 
+
     @ManyToOne(cascade = CascadeType.REFRESH, fetch = FetchType.EAGER)
     @JoinColumn
     private AppUser user;

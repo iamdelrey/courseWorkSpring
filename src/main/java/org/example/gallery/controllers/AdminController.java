@@ -11,6 +11,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
+
 import java.util.List;
 
 @Controller
@@ -24,7 +25,7 @@ public class AdminController {
     public String addMenu(@RequestParam(value="ask_name", required = false) String ask_name, Model model) {
         List<Product> positions = productService.readAll();
         if (ask_name == null) {
-            String answer = "Нет названия - нет ID";
+            String answer = "Ошибка! Введите название картины.";
             model.addAttribute("answer", answer);
         }
         else {
@@ -40,10 +41,15 @@ public class AdminController {
     }
 
     @RequestMapping(value = "/admin", method = RequestMethod.POST)
-    public ResponseEntity<Product> create(@RequestParam String name, @RequestParam Integer price,
-                                          @RequestParam String text, Model model) {
-        ProductDTO dto = new ProductDTO(name, price, text);
-        return new ResponseEntity<>(productService.create(dto), HttpStatus.OK);
+    public ResponseEntity<String> create(@RequestParam String name, @RequestParam Integer price,
+                                         @RequestParam String text, Model model) {
+        try {
+            ProductDTO dto = new ProductDTO(name, price, text);
+            productService.create(dto);
+            return ResponseEntity.ok("Товар успешно добавлен");
+        } catch (Exception e) {
+            return ResponseEntity.badRequest().body("Произошла ошибка в добавлении товара");
+        }
     }
 
     @RequestMapping(value = "/admin", method = RequestMethod.DELETE)

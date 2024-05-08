@@ -5,78 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="589b9179-27ae-4118-8934-291faf22bb10" name="Changes" comment="Add order-feature">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gallery/controllers/AboutController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cafe/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gallery/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cafe/config/AppUserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gallery/config/AppUserDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cafe/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gallery/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cafe/controllers/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gallery/controllers/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cafe/controllers/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gallery/controllers/CartController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cafe/controllers/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gallery/controllers/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cafe/controllers/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gallery/controllers/MenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cafe/controllers/PostmanController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gallery/controllers/PostmanController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cafe/controllers/PostmanRegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gallery/controllers/PostmanRegistrationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cafe/controllers/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gallery/controllers/RegistrationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cafe/dto/ProductDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gallery/dto/ProductDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cafe/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gallery/dto/UserDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cafe/entity/AppUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gallery/entity/AppUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cafe/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gallery/entity/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cafe/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gallery/repository/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cafe/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gallery/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cafe/service/AppUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gallery/service/AppUserDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cafe/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gallery/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cafe/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gallery/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/card.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/card.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/pictures/about-row-gallery-interior.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/about-row-gallery-interior.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/pictures/alisa_yoffe.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/alisa_yoffe.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/pictures/apple-touch-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/apple-touch-icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/pictures/artist-4-row-gallery-artwork.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/artist-4-row-gallery-artwork.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/pictures/artist-5-row-gallery-artwork.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/artist-5-row-gallery-artwork.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/pictures/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/background.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/pictures/browserconfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/browserconfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/pictures/catalog_img1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/catalog_img1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/pictures/catalog_img10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/catalog_img10.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/pictures/catalog_img11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/catalog_img11.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/pictures/catalog_img12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/catalog_img12.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/pictures/catalog_img2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/catalog_img2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/pictures/catalog_img3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/catalog_img3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/pictures/catalog_img4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/catalog_img4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/pictures/catalog_img5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/catalog_img5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/pictures/catalog_img6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/catalog_img6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/pictures/catalog_img7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/catalog_img7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/pictures/catalog_img8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/catalog_img8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/pictures/catalog_img9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/catalog_img9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/pictures/coffee.avif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/coffee.avif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/pictures/evgeniy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/evgeniy.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/pictures/exhib1_bottom_img1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/exhib1_bottom_img1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/pictures/exhib1_bottom_img2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/exhib1_bottom_img2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/pictures/exhib2_bottom_img1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/exhib2_bottom_img1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/pictures/exhib2_slider1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/exhib2_slider1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/pictures/exhib_slider1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/exhib_slider1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/pictures/exhib_slider2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/exhib_slider2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/pictures/exhib_slider3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/exhib_slider3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/pictures/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/favicon-16x16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/pictures/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/favicon-32x32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/pictures/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/pictures/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/favicon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/pictures/index_about_gallery.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/index_about_gallery.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/pictures/index_artists.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/index_artists.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/pictures/index_contact.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/index_contact.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/pictures/index_exhibs.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/index_exhibs.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/pictures/mstile-150x150.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/mstile-150x150.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/pictures/safari-pinned-tab.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/safari-pinned-tab.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/pictures/shifted-grounds-exhibition-slide-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/shifted-grounds-exhibition-slide-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/pictures/shifted-grounds-exhibition-slide-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/shifted-grounds-exhibition-slide-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/pictures/shifted-grounds-exhibition-slide-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/shifted-grounds-exhibition-slide-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/pictures/shifted-grounds-exhibition-square-small-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/shifted-grounds-exhibition-square-small-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/pictures/site.webmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/site.webmanifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/pictures/subheaderDesk.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/subheaderDesk.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/pictures/subheaderMobile.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/subheaderMobile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/pictures/wave-7.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/wave-7.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/pictures/white_back.avif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/white_back.avif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/gallery/controllers/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gallery/controllers/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/gallery/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gallery/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/post_form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/post_form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/artists.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/exhibitions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/home.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/registration_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/registration_page.html" afterDir="false" />
@@ -99,12 +39,7 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="MorningBuzzCafe" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
@@ -132,8 +67,12 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/iamdelrey/courseWorkSpring.git&quot;,
-    &quot;accountId&quot;: &quot;82152264-0f4b-43eb-977d-d7f3f0686867&quot;
+    &quot;accountId&quot;: &quot;88acdff2-664a-4178-90c8-5c62a48b195d&quot;
   }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
 }</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -151,7 +90,9 @@
     "Gradle.Build courseWorkSpring.executor": "Run",
     "Gradle.MorningBuzzCafe [:Main.main()].executor": "Run",
     "Gradle.Tests in 'MorningBuzzCafe'.executor": "Coverage",
+    "Gradle.courseWorkSpring [:Main.main()].executor": "Run",
     "JavaScript Debug.index.html.executor": "Run",
+    "JavaScript Debug.registration_page.html.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -162,7 +103,7 @@
     "Spring Boot.Main.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/anton/Desktop/courseWorkSpring",
+    "last_opened_file_path": "D:/courseWorkSpring",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -192,7 +133,7 @@
       <recent name="org.example.cafe.repository" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.gallery.Main" />
       <module name="MorningBuzzCafe.main" />
@@ -228,6 +169,14 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="MorningBuzzCafe.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.gallery.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.Tests in 'MorningBuzzCafe'" />
@@ -238,8 +187,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
-        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
       </set>
     </attachedChunks>
   </component>
@@ -257,6 +206,11 @@
       <workItem from="1714912664107" duration="483000" />
       <workItem from="1714913170140" duration="597000" />
       <workItem from="1714925556555" duration="16769000" />
+      <workItem from="1715001494465" duration="3112000" />
+      <workItem from="1715013158765" duration="1034000" />
+      <workItem from="1715018953855" duration="3998000" />
+      <workItem from="1715074837039" duration="3385000" />
+      <workItem from="1715166148800" duration="9637000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -391,6 +345,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
