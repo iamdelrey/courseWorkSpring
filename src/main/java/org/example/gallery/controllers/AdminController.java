@@ -24,6 +24,7 @@ public class AdminController {
     @RequestMapping(value = "/admin", method = RequestMethod.GET)
     public String addMenu(@RequestParam(value="ask_name", required = false) String ask_name, Model model) {
         List<Product> positions = productService.readAll();
+        model.addAttribute("products", positions);
         if (ask_name == null) {
             String answer = "Ошибка! Введите название картины.";
             model.addAttribute("answer", answer);
