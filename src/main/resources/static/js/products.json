@@ -3,72 +3,72 @@
         "id": 1,
         "name":" Кучевой пейзаж долины",
         "price": 4999,
-        "image": "assets/images/catalog_img1.jpg"
+        "image": "css/images/catalog_img1.jpg"
     },
     {
         "id": 2,
         "name":" У просторных берегов Волги",
         "price": 82340,
-        "image": "assets/images/catalog_img2.jpg"
+        "image": "css/images/catalog_img2.jpg"
     },
     {
         "id": 3,
         "name":" Корнуоллский пейзаж",
         "price": 3399,
-        "image": "assets/images/catalog_img3.jpg"
+        "image": "css/images/catalog_img3.jpg"
     },
     {
         "id": 4,
         "name":" У подножия Эльбруса",
         "price": 27090,
-        "image": "assets/images/catalog_img4.jpg"
+        "image": "css/images/catalog_img4.jpg"
     },
     {
         "id": 5,
         "name":" Геометрическая абстрактная живопись",
         "price": 9150,
-        "image": "assets/images/catalog_img5.jpg"
+        "image": "css/images/catalog_img5.jpg"
     },
     {
         "id": 6,
         "name":" Акриловая абстрактная живопись",
         "price": 6050,
-        "image": "assets/images/catalog_img6.jpg"
+        "image": "css/images/catalog_img6.jpg"
     },
     {
         "id": 7,
         "name":" Последний танец двух душ в объятиях губ",
         "price": 7650,
-        "image": "assets/images/catalog_img7.jpg"
+        "image": "css/images/catalog_img7.jpg"
     },
     {
         "id": 8,
         "name":" Энергия цветов в вихре абстракции",
         "price": 4500,
-        "image": "assets/images/catalog_img8.jpg"
+        "image": "css/images/catalog_img8.jpg"
     },
     {
         "id": 9,
         "name":" Симфония кои: красота в цвете",
         "price": 190575,
-        "image": "assets/images/catalog_img9.jpg"
+        "image": "css/images/catalog_img9.jpg"
     },
     {
         "id": 10,
         "name":" Лазурные фигуры",
         "price": 12500,
-        "image": "assets/images/catalog_img10.jpg"
+        "image": "css/images/catalog_img10.jpg"
     },
     {
         "id": 11,
         "name":" По ту сторону форм",
         "price": 23793,
-        "image": "assets/images/catalog_img11.jpg"
+        "image": "css/images/catalog_img11.jpg"
     },
     {
         "id": 12,
         "name":" Гондолы на водах Венеции",
         "price": 320390,
-        "image": "assets/images/catalog_img12.jpg"
+        "image": "css/images/catalog_img12.jpg"
     }
 ]
