@@ -13,26 +13,32 @@
 //         event.target.reset();
 //     });
 
-// JavaScript код для post_form.js
-document.getElementById("postForm").addEventListener("submit", async function(event) {
-    event.preventDefault();
-    const formData = new FormData(event.target);
+document.addEventListener("DOMContentLoaded", function() {
+    var form = document.getElementById("postForm");
 
-    try {
-        const response = await fetch("/admin", {
+    form.addEventListener("submit", function(event) {
+        event.preventDefault();
+
+        var formData = new FormData(form);
+
+        fetch("/admin", {
             method: "POST",
-            body: formData
-        });
-
-        const responseData = await response.text();
-        const responseMessage = document.getElementById("response_message");
-
-        if (response.ok) {
-            responseMessage.innerHTML = "<p style='color: green;'>" + responseData + "</p>";
-        } else {
-            responseMessage.innerHTML = "<p style='color: red;'>" + responseData + "</p>";
-        }
-    } catch (error) {
-        console.error('Error:', error);
-    }
+            body: formData,
+        })
+            .then(response => {
+                if(response.ok) {
+                    return response.text();
+                }
+                throw new Error('Ошибка в запросе: ' + response.statusText);
+            })
+            .then(data => {
+                console.log(data);
+                alert("Форма успешно отправлена: " + data);
+                window.location.href = '/download/' + data;
+            })
+            .catch(error => {
+                console.error('Ошибка:', error);
+                alert("Произошла ошибка при отправке формы: " + error);
+            });
+    });
 });

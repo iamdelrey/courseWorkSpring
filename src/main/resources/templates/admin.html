@@ -221,7 +221,7 @@
             <div class="panel">
                 <h2 class="paragraph">Добавить новую позицию в меню</h2>
                 <div id="response_message"></div>
-                <form id="postForm">
+                <form id="postForm" enctype="multipart/form-data">
                     <input
                             id="data_1"
                             type="text"
@@ -243,16 +243,16 @@
                             placeholder="Введите описание"
                             class="form-control"
                     />
-                    <!--            <div class="custom-file">-->
-                    <!--                <input-->
-                    <!--                        id="image"-->
-                    <!--                        type="file"-->
-                    <!--                        name="image"-->
-                    <!--                        accept="image/*"-->
-                    <!--                        class="custom-file-input"-->
-                    <!--                />-->
-                    <!--                <label class="custom-file-label" for="image">Выберите файл</label>-->
-                    <!--            </div>-->
+                                <div class="custom-file">
+                                    <input
+                                            id="image"
+                                            type="file"
+                                            name="image"
+                                            accept="image/*"
+                                            class="custom-file-input"
+                                    />
+                                    <label class="custom-file-label" for="image">Выберите файл</label>
+                                </div>
                     <button id="submit_button" type="submit" class="btn-0">
                         Добавить позицию
                     </button>
