@@ -27,6 +27,4 @@ public class AppUser {
     private String email;
     private String roles;
 
-    @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY, mappedBy = "user")
-    private List<Product> products = new ArrayList<>();
 }

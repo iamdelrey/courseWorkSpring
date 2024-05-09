@@ -4,6 +4,7 @@ import lombok.AllArgsConstructor;
 import org.example.gallery.dto.ProductDTO;
 import org.example.gallery.entity.Product;
 import org.example.gallery.service.ProductService;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;
@@ -11,6 +12,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
+import java.util.Base64;
 import java.util.List;
 
 @Controller
@@ -41,15 +43,11 @@ public class AdminController {
     }
 
     @RequestMapping(value = "/admin", method = RequestMethod.POST)
-    public ResponseEntity<String> create(@RequestParam String name, @RequestParam Integer price,
-                                         @RequestParam String text, @RequestParam("image") MultipartFile image, Model model) {
-        try {
-            ProductDTO dto = new ProductDTO(name, price, text, image);
-            productService.create(dto);
-            return ResponseEntity.ok("Товар успешно добавлен");
-        } catch (Exception e) {
-            return ResponseEntity.badRequest().body("Произошла ошибка при добавлении товара");
-        }
+    public ResponseEntity<Product> addPizza(@RequestParam String name, @RequestParam String price,
+                                                @RequestParam String text, @RequestParam String imgBase64, Model model) {
+        byte[] img = Base64.getDecoder().decode(imgBase64);
+        ProductDTO dto = new ProductDTO(name, price, text, img);
+        return new ResponseEntity<>(productService.create(dto), HttpStatus.OK);
     }
 
     @RequestMapping(value = "/admin", method = RequestMethod.DELETE)

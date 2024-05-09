@@ -1,28 +1,39 @@
-document.addEventListener("DOMContentLoaded", function() {
-    var form = document.getElementById("postForm");
+function addNotification(message, isSuccess) {
+    var notification = document.createElement('div');
+    notification.classList.add('notification', isSuccess ? 'success' : 'error');
+    notification.textContent = message;
 
-    form.addEventListener("submit", function(event) {
-        event.preventDefault();
+    var container = document.getElementById('notification-container');
+    container.appendChild(notification);
 
-        var formData = new FormData(form);
+    setTimeout(function () {
+        container.removeChild(notification);
+    }, 4000);
+}
+
+document.getElementById("addForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+    var file = document.getElementById("dataImg").files[0];
+    var reader = new FileReader();
+    reader.onload = function(event) {
+        const base64String = event.target.result.split(',')[1];
+        let formData = new FormData(document.getElementById("addForm"));
+        formData.append("imgBase64", base64String);
 
         fetch("/admin", {
             method: "POST",
-            body: formData,
+            body: formData
         })
             .then(response => {
-                if(response.ok) {
-                    return response.text();
+                if (response.ok) {
+                    addNotification("POST запрос выполнен успешно", true);
+                } else {
+                    addNotification("Ошибка при отправке запроса", false);
                 }
-                throw new Error('Ошибка в запросе: ' + response.statusText);
-            })
-            .then(data => {
-                console.log(data);
-                alert("Форма успешно отправлена: " + data);
             })
             .catch(error => {
-                console.error('Ошибка:', error);
-                alert("Произошла ошибка при отправке формы: " + error);
+                addNotification('Ошибка при отправке запроса: ' + error, false);
             });
-    });
+    };
+    reader.readAsDataURL(file);
 });

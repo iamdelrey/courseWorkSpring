@@ -6,24 +6,30 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.Base64;
 
 
 @Entity
 @Data
 @Builder
+@Table(name = "paintings")
 @NoArgsConstructor
 @AllArgsConstructor
 public class Product {
+
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private long id;
-    @Column(name="name", unique = true)
+    @Column
     private String name;
-    private Integer price;
+    @Column
+    private String price;
+    @Column
     private String text;
+    @Column
+    private byte[] img;
 
-
-    @ManyToOne(cascade = CascadeType.REFRESH, fetch = FetchType.EAGER)
-    @JoinColumn
-    private AppUser user;
+    public String generateBase64Image(){
+        return Base64.getEncoder().encodeToString(this.img);
+    }
 }
