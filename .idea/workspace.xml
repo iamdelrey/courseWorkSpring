@@ -5,28 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="589b9179-27ae-4118-8934-291faf22bb10" name="Changes" comment="penultimate actions">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gallery/dto/ContactDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gallery/entity/Contact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gallery/repository/ContactRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gallery/service/ContactService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gallery/service/EmailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/prod.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/gallery/controllers/CartController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/gallery/controllers/ContactController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gallery/controllers/ContactController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/card.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/cart.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/catalog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/catalog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/products.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/products.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/cart.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/card.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/footer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/header.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/product.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/gallery/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gallery/GalleryApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/gallery/controllers/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gallery/controllers/RegistrationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/delete_form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/deleteData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/post_form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/postData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/reg_form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/registration.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/registration_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/registration.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +85,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ArtflowGallery.executor": "Run",
     "DefaultHtmlFileTemplate": "HTML File",
     "Downloaded.Files.Path.Enabled": "false",
     "Gradle.Build MorningBuzzCafe.executor": "Run",
@@ -117,6 +106,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.GalleryApp.executor": "Run",
     "Spring Boot.Main.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -150,10 +140,10 @@
       <recent name="org.example.cafe.repository" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.gallery.Main" />
-      <module name="MorningBuzzCafe.main" />
+  <component name="RunManager" selected="Application.GalleryApp">
+    <configuration name="GalleryApp" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.gallery.GalleryApp" />
+      <module name="ArtflowGallery.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.gallery.*" />
@@ -186,6 +176,14 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="GalleryApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="ArtflowGallery.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.gallery.GalleryApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="MorningBuzzCafe.main" />
@@ -194,10 +192,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.GalleryApp" />
+      <item itemvalue="Gradle.Tests in 'MorningBuzzCafe'" />
+      <item itemvalue="Spring Boot.GalleryApp" />
+      <item itemvalue="Spring Boot.Main" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GalleryApp" />
         <item itemvalue="Gradle.Tests in 'MorningBuzzCafe'" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +233,7 @@
       <workItem from="1715074837039" duration="3385000" />
       <workItem from="1715166148800" duration="12896000" />
       <workItem from="1715204123169" duration="6157000" />
-      <workItem from="1715245747383" duration="28159000" />
+      <workItem from="1715245747383" duration="29588000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -415,7 +419,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715269799085</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="penultimate actions">
+      <option name="closed" value="true" />
+      <created>1715332532133</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1715332532133</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
