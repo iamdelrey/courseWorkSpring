@@ -31,13 +31,7 @@ public class AdminController {
             model.addAttribute("answer", answer);
         }
         else {
-            long current_id = findIdByName(ask_name, positions);
-            if (current_id == -1) {
-                model.addAttribute("answer", "Такой позиции нет");
-            }
-            else {
-                model.addAttribute("answer", "ID данной позиции: " + current_id);
-            }
+            model.addAttribute("answer", "Такой позиции нет");
         }
         return "admin";
     }
@@ -53,13 +47,5 @@ public class AdminController {
     @RequestMapping(value = "/admin", method = RequestMethod.DELETE)
     public void delete(@RequestParam Long delete_id, Model model) {
         productService.delete(delete_id);
-    }
-
-    public long findIdByName(String name, List<Product> list) {
-        for (int i = 0; i < list.size(); ++i) {
-            if (list.get(i).getName().equals(name))
-                return list.get(i).getId();
-        }
-        return -1;
     }
 }

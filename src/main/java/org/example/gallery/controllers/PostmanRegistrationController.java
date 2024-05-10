@@ -36,5 +36,4 @@ public class PostmanRegistrationController {
         service.delete(id);
         return HttpStatus.OK;
     }
-
 }
