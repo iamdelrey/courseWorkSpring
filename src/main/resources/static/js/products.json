@@ -18,57 +18,9 @@
         "image": "css/images/catalog_img3.jpg"
     },
     {
-        "id": 4,
-        "name":" У подножия Эльбруса",
-        "price": 27090,
-        "image": "css/images/catalog_img4.jpg"
-    },
-    {
-        "id": 5,
-        "name":" Геометрическая абстрактная живопись",
-        "price": 9150,
-        "image": "css/images/catalog_img5.jpg"
-    },
-    {
-        "id": 6,
-        "name":" Акриловая абстрактная живопись",
-        "price": 6050,
-        "image": "css/images/catalog_img6.jpg"
-    },
-    {
-        "id": 7,
-        "name":" Последний танец двух душ в объятиях губ",
-        "price": 7650,
-        "image": "css/images/catalog_img7.jpg"
-    },
-    {
-        "id": 8,
-        "name":" Энергия цветов в вихре абстракции",
-        "price": 4500,
-        "image": "css/images/catalog_img8.jpg"
-    },
-    {
-        "id": 9,
-        "name":" Симфония кои: красота в цвете",
-        "price": 190575,
-        "image": "css/images/catalog_img9.jpg"
-    },
-    {
-        "id": 10,
-        "name":" Лазурные фигуры",
-        "price": 12500,
-        "image": "css/images/catalog_img10.jpg"
-    },
-    {
-        "id": 11,
-        "name":" По ту сторону форм",
-        "price": 23793,
-        "image": "css/images/catalog_img11.jpg"
-    },
-    {
-        "id": 12,
-        "name":" Гондолы на водах Венеции",
-        "price": 320390,
-        "image": "css/images/catalog_img12.jpg"
+    "id": 4,
+    "name":" У подножия Эльбруса",
+    "price": 27090,
+    "image": "css/images/catalog_img4.jpg"
     }
 ]

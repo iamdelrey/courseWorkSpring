@@ -4,26 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="589b9179-27ae-4118-8934-291faf22bb10" name="Changes" comment="deleted unused files">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gallery/config/WebSocketConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gallery/controllers/WebSocketController.java" afterDir="false" />
+    <list default="true" id="589b9179-27ae-4118-8934-291faf22bb10" name="Changes" comment="penultimate actions">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gallery/dto/ContactDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gallery/entity/Contact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gallery/repository/ContactRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gallery/service/ContactService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gallery/service/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/prod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/gallery/controllers/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gallery/controllers/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/gallery/controllers/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gallery/controllers/CartController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/gallery/controllers/CatalogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gallery/controllers/CatalogController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/gallery/dto/ProductDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gallery/dto/ProductDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/gallery/entity/AppUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gallery/entity/AppUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/gallery/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gallery/entity/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/gallery/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gallery/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/gallery/controllers/CartController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/gallery/controllers/ContactController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gallery/controllers/ContactController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/card.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/cart.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/catalog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/catalog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/post_form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/post_form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/catalog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/registration_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/registration_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/products.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/products.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/cart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/card.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/product.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,8 +61,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="HTML File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -101,6 +104,7 @@
     "Gradle.MorningBuzzCafe [:Main.main()].executor": "Run",
     "Gradle.Tests in 'MorningBuzzCafe'.executor": "Coverage",
     "Gradle.courseWorkSpring [:Main.main()].executor": "Run",
+    "Gradle.courseWorkSpring.executor": "Run",
     "JavaScript Debug.index.html.executor": "Run",
     "JavaScript Debug.registration_page.html.executor": "Run",
     "Repository.Attach.Annotations": "false",
@@ -225,7 +229,7 @@
       <workItem from="1715074837039" duration="3385000" />
       <workItem from="1715166148800" duration="12896000" />
       <workItem from="1715204123169" duration="6157000" />
-      <workItem from="1715245747383" duration="19490000" />
+      <workItem from="1715245747383" duration="28159000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -403,7 +407,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715248440666</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="penultimate actions">
+      <option name="closed" value="true" />
+      <created>1715269799085</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1715269799085</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -443,7 +455,8 @@
     <MESSAGE value="added catalog page" />
     <MESSAGE value="added frontend with backend support for the contact page" />
     <MESSAGE value="deleted unused files" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleted unused files" />
+    <MESSAGE value="penultimate actions" />
+    <option name="LAST_COMMIT_MESSAGE" value="penultimate actions" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MorningBuzzCafe$Tests_in__MorningBuzzCafe_.ic" NAME="Tests in 'MorningBuzzCafe' Coverage Results" MODIFIED="1714752795266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
