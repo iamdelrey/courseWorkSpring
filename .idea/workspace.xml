@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="589b9179-27ae-4118-8934-291faf22bb10" name="Changes" comment="penultimate actions">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/gallery/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gallery/GalleryApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/gallery/controllers/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gallery/controllers/RegistrationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/delete_form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/deleteData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/post_form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/postData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/reg_form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/registration.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/registration_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/registration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/gallery/dto/ContactDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gallery/dto/ContactDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/gallery/service/ContactService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gallery/service/ContactService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +85,7 @@
     "Gradle.Build courseWorkSpring.executor": "Run",
     "Gradle.MorningBuzzCafe [:Main.main()].executor": "Run",
     "Gradle.Tests in 'MorningBuzzCafe'.executor": "Coverage",
+    "Gradle.courseWorkSpring [:GalleryApp.main()].executor": "Run",
     "Gradle.courseWorkSpring [:Main.main()].executor": "Run",
     "Gradle.courseWorkSpring.executor": "Run",
     "JavaScript Debug.index.html.executor": "Run",
@@ -119,7 +113,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.grazie",
+    "settings.editor.selected.configurable": "inlay.hints",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -233,7 +227,7 @@
       <workItem from="1715074837039" duration="3385000" />
       <workItem from="1715166148800" duration="12896000" />
       <workItem from="1715204123169" duration="6157000" />
-      <workItem from="1715245747383" duration="29588000" />
+      <workItem from="1715245747383" duration="30889000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -427,7 +421,23 @@
       <option name="project" value="LOCAL" />
       <updated>1715332532133</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="penultimate actions">
+      <option name="closed" value="true" />
+      <created>1715333445989</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1715333445989</updated>
+    </task>
+    <task id="LOCAL-00026" summary="penultimate actions">
+      <option name="closed" value="true" />
+      <created>1715333487870</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1715333487870</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

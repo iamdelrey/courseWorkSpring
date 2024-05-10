@@ -15,6 +15,7 @@ public class ContactDTO {
     private String message;
     private String dateTime;
 
+
     public String getFirstName() {
         return firstName;
     }
